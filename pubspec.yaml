@@ -1,0 +1,24 @@
+name: simple_flutter_bloc
+description: Sample project to work with bloc pattern in flutter.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  gabrimatic_utils: ^0.0.6
+  bloc: ^6.1.0
+  flutter_bloc: ^6.0.6
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true

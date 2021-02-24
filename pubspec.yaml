@@ -12,6 +12,8 @@ dependencies:
   gabrimatic_utils: ^0.0.6
   bloc: ^6.1.0
   flutter_bloc: ^6.0.6
+  equatable: ^1.1.0
+
   flutter:
     sdk: flutter
 

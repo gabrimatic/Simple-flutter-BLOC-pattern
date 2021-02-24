@@ -40,7 +40,7 @@ class BlocListPage extends StatelessWidget {
                           onPressed: () {
                             context
                                 .bloc<HomeBloc>()
-                                .add(HomeBlocEventRemove(userModel));
+                                .add(HomeBlocEventRemove(userModel: userModel));
                           }),
                     ),
                   );
